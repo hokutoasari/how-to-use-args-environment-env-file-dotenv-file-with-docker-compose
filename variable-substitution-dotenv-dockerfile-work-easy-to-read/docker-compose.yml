@@ -1,0 +1,7 @@
+version: '3'
+services:
+  variable-substitution-dotenv-dockerfile-work-easy-to-read:
+    build:
+      context: ./
+      args:
+        BUSYBOX_VERSION: ${DOCKER_COMPOSER_BUSYBOX_VERSION}

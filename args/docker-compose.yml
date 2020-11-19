@@ -1,0 +1,8 @@
+version: '3'
+services:
+  with-args:
+    build:
+      context: ./
+      args:
+        ARG_VALUE2: "arg2_in_yml"
+        ARG_VALUE3: "arg3_in_yml"

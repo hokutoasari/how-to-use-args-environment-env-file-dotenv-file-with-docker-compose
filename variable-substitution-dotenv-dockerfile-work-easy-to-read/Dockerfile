@@ -1,0 +1,2 @@
+ARG BUSYBOX_VERSION="latest"
+FROM busybox:${BUSYBOX_VERSION}

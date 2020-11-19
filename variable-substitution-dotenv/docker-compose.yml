@@ -1,0 +1,4 @@
+version: '3'
+services:
+  variable-substitution-dotenv:
+    image: busybox:${BUSYBOX_VERSION}

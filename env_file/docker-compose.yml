@@ -1,0 +1,10 @@
+version: '3'
+services:
+  with-env_file:
+    build:
+      context: ./
+    environment:
+      ENV_VALUE2: "env2_in_yml"
+      ENV_VALUE3: "env3_in_yml"
+    env_file:
+      - some_env.env

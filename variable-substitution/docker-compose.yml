@@ -1,0 +1,4 @@
+version: '3'
+services:
+  variable-substitution:
+    image: busybox:${BUSYBOX_VERSION}

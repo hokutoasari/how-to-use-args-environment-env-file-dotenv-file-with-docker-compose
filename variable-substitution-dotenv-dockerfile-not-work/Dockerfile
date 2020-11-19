@@ -1,0 +1,1 @@
+FROM busybox:${BUSYBOX_VERSION}
